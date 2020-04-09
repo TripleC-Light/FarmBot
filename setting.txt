@@ -1,1 +1,19 @@
-com port:27
+farm_size:3*3
+plant:草莓 No1*1
+plant:西瓜 No2*2
+plant:玉米 No3*3
+plant:葡萄 No4*4
+CMD:馬達-原點*1*GotoHome
+CMD:馬達-位置1*1*GotoP1
+CMD:馬達-位置2*1*GotoP2
+CMD:馬達-位置3*1*GotoP3
+CMD:馬達-位置4*1*GotoP4
+CMD:馬達-啟動幫浦*2*Water
+CMD:感測器-儲水量*2*CheckWaterLevel
+CMD:感測器-空氣溫度*2*Temp
+CMD:感測器-空氣濕度*2*Hum
+CMD:感測器-土壤濕度1*3*SoilHum1
+CMD:感測器-土壤濕度2*3*SoilHum2
+CMD:感測器-土壤濕度3*3*SoilHum3
+CMD:感測器-土壤濕度4*3*SoilHum4
+CMD:其他-夾爪*4*Catch
