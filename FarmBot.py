@@ -175,7 +175,7 @@ if __name__ == "__main__":
         webApp.listen(8888)
         url = 'http://localhost:8888/index'
         # webbrowser.open(url=url, new=0)
-        print('Server open in: ' + url)
+        # print('Server open in: ' + url)
         tornado.ioloop.IOLoop.instance().start()
 
     except KeyboardInterrupt:
